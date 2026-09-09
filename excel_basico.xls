@@ -1,0 +1,65 @@
+<?xml version="1.0"?>
+<?mso-application progid="Excel.Sheet"?>
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:o="urn:schemas-microsoft-com:office:office"
+ xmlns:x="urn:schemas-microsoft-com:office:excel"
+ xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet">
+ <Styles>
+  <Style ss:ID="Default" ss:Name="Normal">
+   <Alignment ss:Vertical="Center"/>
+   <Font ss:FontName="Calibri" ss:Size="11"/>
+  </Style>
+  <Style ss:ID="Header">
+   <Font ss:Bold="1" ss:Color="#FFFFFF"/>
+   <Interior ss:Color="#1F4E78" ss:Pattern="Solid"/>
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center"/>
+  </Style>
+  <Style ss:ID="Currency">
+   <NumberFormat ss:Format="#,##0.00 €"/>
+  </Style>
+ </Styles>
+ <Worksheet ss:Name="Datos">
+  <Table>
+   <Column ss:Width="55"/>
+   <Column ss:Width="130"/>
+   <Column ss:Width="120"/>
+   <Column ss:Width="85"/>
+   <Column ss:Width="90"/>
+   <Row ss:Height="24">
+    <Cell ss:StyleID="Header"><Data ss:Type="String">ID</Data></Cell>
+    <Cell ss:StyleID="Header"><Data ss:Type="String">Nombre</Data></Cell>
+    <Cell ss:StyleID="Header"><Data ss:Type="String">Categoria</Data></Cell>
+    <Cell ss:StyleID="Header"><Data ss:Type="String">Importe</Data></Cell>
+    <Cell ss:StyleID="Header"><Data ss:Type="String">Fecha</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="String">Producto A</Data></Cell>
+    <Cell><Data ss:Type="String">General</Data></Cell>
+    <Cell ss:StyleID="Currency"><Data ss:Type="Number">125.50</Data></Cell>
+    <Cell><Data ss:Type="DateTime">2026-09-09T00:00:00.000</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">2</Data></Cell>
+    <Cell><Data ss:Type="String">Producto B</Data></Cell>
+    <Cell><Data ss:Type="String">General</Data></Cell>
+    <Cell ss:StyleID="Currency"><Data ss:Type="Number">89.90</Data></Cell>
+    <Cell><Data ss:Type="DateTime">2026-09-09T00:00:00.000</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">3</Data></Cell>
+    <Cell><Data ss:Type="String">Producto C</Data></Cell>
+    <Cell><Data ss:Type="String">General</Data></Cell>
+    <Cell ss:StyleID="Currency"><Data ss:Type="Number">210.00</Data></Cell>
+    <Cell><Data ss:Type="DateTime">2026-09-09T00:00:00.000</Data></Cell>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <FreezePanes/>
+   <FrozenNoSplit/>
+   <SplitHorizontal>1</SplitHorizontal>
+   <TopRowBottomPane>1</TopRowBottomPane>
+   <ActivePane>2</ActivePane>
+  </WorksheetOptions>
+ </Worksheet>
+</Workbook>
